@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+  <header class="nav--style">
+    <nav class="nav--flex main--margins">
+      <a href="#" class="links--textdecor nav__menu--font nav__logo--margin">Company Name</a>
+      <a href="#" class="links--textdecor nav__menu--font nav__rightlinks--margin">Home</a>
+      <a href="#" class="links--textdecor nav__menu--font nav__rightlinks--margin">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="main__text--margin calltoaction--style">
+      <p class="calltoaction__text--font">This is a call to action. It makes you want to click the button below.</p>
+      <button class="calltoaction__button--style">click now</button>
+    </section>
+    <article class="main__article--padding main--margins main__text--margin">
+      <h1 class="main__title--font main__titles--align">Main Heading</h1>
+      <p class="main__p--lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi <a href="#" class="links--textdecor body__links--color">ad id nobis aspernatur deleniti!</a> Dolorem totam quam fugiat, iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <img src="https://picsum.photos/500/500" alt="random image" class="main__article--img">
+      <p class="main__p--lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi <a href="#" class="links--textdecor body__links--color">voluptatibus</a> cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. Corrupti vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+      <h2 class="main__titles--align">Subheading</h2>
+      <p class="main__p--lineheight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam. Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit accusantium ipsum dolorum aperiam neque. <a href="#" class="links--textdecor body__links--color">Corrupti</a> vitae tempora repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae consequuntur exercitationem?</p>
+    </article>
+  </main>
+  <footer class="footer--style">
+    &copy; company name <span id="year"></span>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
